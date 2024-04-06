@@ -34,6 +34,7 @@ body, html{
 }
 
 .navbar a {
+    float: none;
     display: inline-block;
     list-style-type: none;
     color: #f2f2f2;
