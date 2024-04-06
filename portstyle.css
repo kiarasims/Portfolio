@@ -26,8 +26,8 @@ body, html{
     color: white;
     font-weight: bold;
     border: 3px solid #f1f1f1;
-    position: bottom center;
-    top: 50%;
+    position: absolute;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
