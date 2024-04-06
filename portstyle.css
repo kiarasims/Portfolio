@@ -34,11 +34,11 @@ body, html{
 }
 
 .navbar a {
-    float: left;
-    display: block;
+    display: inline-block;
+    list-style-type: none;
     color: #f2f2f2;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
     margin: auto;
     text-decoration: none;
     font-size: medium;
