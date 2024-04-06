@@ -26,7 +26,7 @@ body, html{
     color: white;
     font-weight: bold;
     border: 3px solid #f1f1f1;
-    position: bottom;
+    position: center bottom;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
