@@ -4,6 +4,9 @@ body, html{
 
 *{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
    
 }
 
@@ -31,26 +34,57 @@ body, html{
     transform: translate(-50%, -50%);
     z-index: 2;
     width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .navbar a {
     display: inline-block;
+    position: relative;
     list-style-type: none;
-    color: #f2f2f2;
+    color: #fff;
     text-align: center;
     padding: 30px;
     margin: auto;
     text-decoration: none;
-    font-size: 20px;
+    font-size: auto;
     font-weight: bold;
+    z-index: 1;
 }
 
-.navbar a:hover {
-    background: #f1f1f1;
-    color: black;
+.navbar span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100%;
+    background: linear-gradient(45deg, rgb(39, 15, 98), aquamarine);
+    border-radius: 8px;
+    transition: .5s;
 }
 
-.navbar a.active {
-    background-color: aquamarine;
-    color: black;
+.navbar a:nth-child(1):hover~span{
+    left: 0;
+    width: 100px;
+}
+
+.navbar a:nth-child(2):hover~span{
+    left: 115px;
+    width: 20%;
+}
+
+.navbar a:nth-child(3):hover~span{
+    left: 250px;
+    
+}
+
+.navbar a:nth-child(4):hover~span{
+    left: 355px;
+    width: 20%;
+}
+
+.navbar a:nth-child(5):hover~span{
+    left: 473px;
+    width: 20%;
 }
