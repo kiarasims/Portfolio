@@ -57,7 +57,7 @@ body, html{
     position: absolute;
     top: 0;
     left: 0;
-    width: 100px;
+    width: 16%;
     height: 100%;
     background: linear-gradient(45deg, rgb(39, 15, 98), aquamarine);
     border-radius: 8px;
@@ -66,25 +66,22 @@ body, html{
 
 .navbar a:nth-child(1):hover~span{
     left: 0;
-    width: 100px;
 }
 
 .navbar a:nth-child(2):hover~span{
-    left: 115px;
-    width: 20%;
+    left: 32%;
+    
 }
 
 .navbar a:nth-child(3):hover~span{
-    left: 250px;
+    left: 48%;
     
 }
 
 .navbar a:nth-child(4):hover~span{
-    left: 355px;
-    width: 20%;
+    left: 64%;
 }
 
 .navbar a:nth-child(5):hover~span{
-    left: 473px;
-    width: 20%;
+    left: 80%; 
 }
