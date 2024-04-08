@@ -1,5 +1,10 @@
 body, html{
     height: 100%;
+    padding: 50px;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 body {
@@ -52,4 +57,22 @@ body p {
         opacity: 1;
         transform: translateY(0);
     }
+}
+
+body img {
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 5px;
+    width: 550px;
+    opacity: 0;
+    transform: translateY(3rem);
+    animation: fadeInUp 2s ease calc(8s) forwards;
+}
+
+.row {
+    display: flex;
+}
+.column {
+    flex: 33.33%;
+    padding: 5px;
 }
