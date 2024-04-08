@@ -5,6 +5,7 @@ body, html{
 
 * {
     box-sizing: border-box;
+    align-items: center;
 }
 
 body {
@@ -24,6 +25,12 @@ body h1 {
     width: max-content;
 }
 
+body h2 {
+    opacity: 0;
+    transform: translateY(3rem);
+    animation: fadeInUp 2s ease calc(8s) forwards;
+}
+
 
 .typewriter h1 {
     overflow: hidden;
@@ -37,6 +44,7 @@ body h1 {
 body p {
     color: hsl(0, 0%, 0% / 0.7);
     font-weight: 400;
+    width: auto;
     opacity: 0;
     transform: translateY(3rem);
     animation: fadeInUp 2s ease calc(8s) forwards;
@@ -59,7 +67,7 @@ body p {
     }
 }
 
-body img {
+img {
     border: 1px solid black;
     border-radius: 8px;
     padding: 5px;
@@ -72,6 +80,7 @@ body img {
 .row {
     display: flex;
 }
+
 .column {
     flex: 33.33%;
     padding: 5px;
