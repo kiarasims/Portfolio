@@ -1,9 +1,9 @@
-window.onscroll = function() {scrollFunction()};
+function openNav() {
+    document.getElementById("mySidebar").style.width = "250px;";
+    document.getElementById("side").style.marginLeft = "250px"
+}
 
-function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20){
-        document.getElementById("navbar"). style.top = "0";
-    } else {
-        document.getElementById("navbar").style.top = "-50px";
-    }
+function closeNav() {
+    document.getElementById("mySidebar").style.width = "0";
+    document.getElementById("side").style.marginLeft = "0";
 }
